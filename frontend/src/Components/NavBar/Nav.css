@@ -1,0 +1,49 @@
+.NavMainDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+}
+.NavBar {
+  width: 80%;
+  /* background-color: brown; */
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LogoImg {
+  width: 49px;
+  height: 49px;
+}
+
+.NavLinkBox {
+  width: 22%;
+  min-width: 230px;
+}
+
+.NavLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.active {
+  color: #4cbae1;
+}
+
+li {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}

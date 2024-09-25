@@ -1,0 +1,80 @@
+.LoginMianDiv {
+  min-width: 230px;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+.LoginSubDiv {
+  width: 100%;
+  
+}
+
+
+
+.LoginSubDiv > h1 {
+  margin-bottom: 28px;
+  text-align: center;
+  color: black;
+}
+
+.inputLogin {
+  width: var(--input--Width);
+  height: var(--inputBox--Height);
+  width: 100%;
+  margin-top: 5px;
+  font-size: var(--input-font-size);
+  color: black;
+  padding-left: 5px;
+}
+
+.label {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 17px;
+  color: black;
+}
+.GAPDiv {
+  margin: 20px;
+}
+
+.loginBtn {
+  background-color: var(--Btn-Color);
+  margin-top: 17px;
+  border-width: 0;
+  height: var(--Btn--height);
+  width: var(--Btn-Width);
+  color: var(--Btn--color);
+  font-size: var(--Btn--font--size);
+  font-weight: var(--Btn--Font-Weight);
+  border-radius: var(--Btn-Border-radius);
+}
+
+.LinkBtn {
+  border-width: 0px;
+  background-color: transparent;
+  color: var(--Btn-Color);
+  font-weight: bold;
+  margin-top: 17px;
+}
+
+.LofinFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LinkBtn{
+  border-bottom-width: 1px;
+  border-bottom-color: var(--Btn--color);
+}

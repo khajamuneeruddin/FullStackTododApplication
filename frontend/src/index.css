@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Btn-Color: #ff0b37;
+  --Btn-Width: 100px;
+  --Btn--height: 34px;
+  --Btn--color: White;
+  --Btn--Font-Weight: 548;
+  --Btn-Border-radius: 3px;
+  --Btn--font--size: 15px;
+  --input--Width: 222px;
+  --inputBox--Height: 34px;
+  --input-font-size: 14px;
+}
+
+.loginBtn {
+  background-color: var(--Btn-Color);
+}
